@@ -110,7 +110,7 @@ def parse_args():
 
     parser = argparse.ArgumentParser("NL Extract Processing!!")
     # 数据的路径
-    parser.add_argument('--data_path', type=str, default='/.../APathCS/github/path_data',help="data location")
+    parser.add_argument('--data_path', type=str, default='/.../APathCS/github/path_data/',help="data location")
     # 数据的类型
     parser.add_argument('--data_name', type=str, default='github', help="dataset name")
     # 数据的分片
