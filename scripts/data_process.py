@@ -30,7 +30,7 @@ def main():
     # 参数配置
     args = parse_args()
 
-    # /data/hugang/DeveCode/PathCS/data/exmaple/java/
+    # /path_data/exmaple/java/
     lang_path = os.path.join(args.data_path, args.data_name, args.lang_type)
 
     # /data/hugang/DeveCode/PSCS/data/exmaple/java/code_path/test/java
