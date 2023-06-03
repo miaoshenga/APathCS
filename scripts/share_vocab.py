@@ -103,7 +103,7 @@ def parse_args():
 def main():
     # 配置
     args = parse_args()
-    # /data/hugang/DeveCode/mydata/PathCS/XXX/java
+    # /.../APathCS/github/path_data/XXX/java
     lang_path = os.path.join(args.data_path, args.data_name, args.lang_type)
 
     #  训练数据的路径
