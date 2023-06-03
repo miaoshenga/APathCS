@@ -82,7 +82,7 @@ def parse_args():
 
     parser = argparse.ArgumentParser("CodePath Vocab Generation!!")
     # 数据的路径
-    parser.add_argument('--data_path', type=str, default='/data/hugang/DeveCode/mydata/PathCS/',help="data location")
+    parser.add_argument('--data_path', type=str, default='/.../APathCS/github/path_data/',help="data location")
     # 数据的类型
     parser.add_argument('--data_name', type=str, default='example', help="dataset name")
     # 语言的类型
