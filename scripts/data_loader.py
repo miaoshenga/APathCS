@@ -202,8 +202,8 @@ class Pairdata(Dataset):
 
 def main():
     # 输入数据的路径
-    lang_path= '/data/hugang/DeveCode/mydata/PathCS/github/java'
-    # lang_path= '/data/hugang/DeveCode/mydata/PathCS/example/java'
+    lang_path= '/.../APathCS/github/java'
+    #lang_path= /.../APathCS/example/java'
 
     f = open('{}/processed/descr_vocab.pickle'.format(lang_path), 'rb')
     descr_vocab = pickle.load(f)
